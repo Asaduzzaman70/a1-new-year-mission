@@ -11,7 +11,7 @@ body{
     font-family: 'Merriweather', serif;
 }
 .primary-paragraph{
-    color: rgba(255, 255, 255, 0.80);
+    color: rgba(7, 2, 17, 0.60);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -31,6 +31,9 @@ body{
     background-color: rgb(173, 0, 0);
     cursor: pointer;
     color: #bebebe;
+}
+.place-red{
+    color: #F00;
 }
 
 /* header section */
@@ -145,6 +148,7 @@ main{
 }
 .welcome-text p{
     margin-top: 24px;
+    color: rgba(255, 255, 255, 0.80);
 }
 .welcome-text a button{
     margin-top: 48px;
@@ -175,9 +179,58 @@ main{
     line-height: 56px;
     text-transform: capitalize;
 }
-.place-red{
-    color: #F00;
-}
+
 .place button{
     margin-top: 48px;
+}
+
+/* Coming soon section */
+.coming-soon{
+    display: flex;
+    margin-top: 120px;
+}
+.coming-text{
+    padding: 104px 130px 104px 0px;
+}
+.coming-text-offer{
+    color: #F00;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+}
+.coming-text-title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.coming-img{
+    position: relative;
+}
+.coming-img .coming-img-1{
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 463px;
+    height: 463px;
+}
+.coming-img-2{
+    width: 365px;
+    height: 365px;
+}
+
+.coming-logo{
+    padding-top: 112px;
+    margin-left: 165px;
+}
+.coming-logo-year{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+.coming-logo img{
+    width: 140px;
+    height: 140px;
+    margin-top: 45px;
 }
