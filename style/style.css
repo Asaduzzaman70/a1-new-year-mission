@@ -322,3 +322,52 @@ main{
 .portfolio-img img{
     padding: 12px;
 }
+
+/* subscribe section */
+.subscribe{
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.075);
+    padding: 80px 212px;
+    margin-top: 120px;
+}
+.subscribe img{
+    width: 150px;
+    height: 150px;
+}
+.subscribe-title{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+.subscribe-description{
+    margin-top: 22px;
+}
+
+
+.form-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#email{
+    width: 30%;
+    background-color: #FFF;
+    color: rgba(0, 0, 0, 0.411);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 25px 20px 30px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    outline: none; /* New property focus border remove */
+}
+#submit{
+    padding: 20px 60px;
+    border-radius: 0px 50px 50px 0px;
+}
+#email:focus{
+    color: rgb(10, 10, 10);
+}
