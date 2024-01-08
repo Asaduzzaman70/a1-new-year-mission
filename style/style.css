@@ -47,7 +47,7 @@ header{
     background-position: center;
     height: 600px;
     position: relative;
-    z-index: -1;
+    z-index: 1;
 }
 .banner::after{
     content: "";
@@ -56,10 +56,7 @@ header{
     left: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(to right, #000000d5, #0000005d, #000000c0);
-    opacity: 1;
-    /* rgba(0, 0, 0, 0.4) */
-    border-radius: 16px;
+    background-image: url(../image/Rectangle\ 15.png);
     z-index: -1;
 }
 
