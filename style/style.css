@@ -4,7 +4,7 @@
     margin: 0px;
 }
 body{
-    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .f-merriweather{
@@ -34,7 +34,9 @@ header{
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.459);
+    background: linear-gradient(to right, #000000d5, #0000005d, #000000c0);
+    opacity: 1;
+    /* rgba(0, 0, 0, 0.4) */
     border-radius: 16px;
     z-index: -1;
 }
@@ -54,4 +56,38 @@ header{
     line-height: 95px; /* 131.944% */
     margin-top: 0px;
     z-index: 1;
+}
+
+/* Main section */
+main{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+/* Holiday sell section */
+.holyday-sell{
+    text-align: center;
+}
+.holyday-discount{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    padding: 120px 0px 0px 0px;
+}
+.holyday-comment{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+.holyday-category{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 48px;
+}
+.holiday-img{
+    width: 802.9px;
+    height: 500px;
 }
