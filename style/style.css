@@ -10,6 +10,28 @@ body{
 .f-merriweather{
     font-family: 'Merriweather', serif;
 }
+.primary-paragraph{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.primary-btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background-color: #F00;
+    border: none;
+    border-radius: 5px;
+    transition: .2s;
+}
+.primary-btn:hover{
+    background-color: rgb(173, 0, 0);
+    cursor: pointer;
+    color: #bebebe;
+}
 
 /* header section */
 header{
@@ -90,4 +112,51 @@ main{
 .holiday-img{
     width: 802.9px;
     height: 500px;
+}
+
+/* Welcome section */
+.welcome{
+    display: flex;
+    background-image: url(../image/Vectorrr.png);
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    margin-top: 120px;
+}
+.welcome::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(../image/Vector11.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.welcome-text{
+    padding: 126px 40px 142px 126px;
+    z-index: 1;
+}
+.welcome-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+    margin-bottom: 0px;
+}
+.welcome-text p{
+    margin-top: 24px;
+}
+.welcome-text a button{
+    margin-top: 48px;
+}
+.welcome-year{
+    padding: 68px 138px 67px 38px;
+    z-index: 1;
+}
+.welcome-year img{
+    width: 320px;
+    height: 465px;
 }
