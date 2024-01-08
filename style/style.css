@@ -290,6 +290,9 @@ main{
 }
 
 /* Portfolio section */
+.portfolio{
+    margin-top: 120px;
+}
 .portfolio-gift-text{
     color: #F00;
     font-size: 24px;
