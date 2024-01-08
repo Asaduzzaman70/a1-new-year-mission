@@ -36,6 +36,10 @@ body{
     color: #F00;
 }
 
+.center{
+    text-align: center;
+}
+
 /* header section */
 header{
     max-width: 1320px;
@@ -233,4 +237,54 @@ main{
     width: 140px;
     height: 140px;
     margin-top: 45px;
+}
+
+/* Discount section */
+.discount{
+    margin-top: 120px;
+}
+.discount-top-text{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+}
+.discount-title{
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+.discount-description{
+    padding: 0 130px;
+}
+
+
+.discount-main{
+    padding-top: 65px;
+}
+.discount-image-1{
+    text-align: right;
+    position: relative;
+}
+.discount-image-2{
+    margin-top: -3px;
+    position: relative;
+}
+
+.discount-image-1 img:nth-child(2){
+    position: absolute;
+    top: 86px;
+    right: 285px;
+}
+
+.discount-image-2 img:nth-child(1){
+    width: 1320px;
+    height: 230px;
+}
+.discount-image-2 img:nth-child(2){
+    position: absolute;
+    top: -425px;
+    left: -64px;
+    width: 795px;
+    height: 662px;
 }
