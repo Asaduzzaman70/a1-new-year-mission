@@ -371,3 +371,60 @@ main{
 #email:focus{
     color: rgb(10, 10, 10);
 }
+
+/* footer section */
+footer{
+    background-color: #070211;
+    margin-top: 120px;
+}
+.footer-sub{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.top-text{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.footer-top>h3{
+    padding: 120px 236px 0px 0px;
+}
+.top-icon{
+    padding: 120px 130px 0px 0px;
+    text-align: left;
+}
+.top-icon img{
+    width: 24px;
+    height: 24px;
+    padding-right: 10px;
+}
+.top-icon a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-middle{
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.15);;
+    border-left: none;
+    border-right: none;
+    padding: 48px 0px;
+}
+.footer-middle a{
+    display: inline-block;
+    padding: 0px 24px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
